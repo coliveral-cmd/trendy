@@ -240,6 +240,7 @@ html {
 /* ********************************** */
 .main-content {
 	background-color: var(--background-color);
+	padding-bottom: 20px;
 }
 
 /* ********************************** */
@@ -1553,5 +1554,6 @@ html {
         grid-template-columns: 1fr;
     }
 }
+
 
 
