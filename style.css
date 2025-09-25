@@ -742,7 +742,7 @@ html {
 .information ul li,
 .my-account ul li {
 	list-style: none;
-	color: #fff;
+	color: black;
 	font-size: 1.4rem;
 	font-weight: 300;
 }
@@ -750,7 +750,7 @@ html {
 .information ul li a,
 .my-account ul li a {
 	text-decoration: none;
-	color: #fff;
+	color: black;
 	font-weight: 300;
 }
 
@@ -809,7 +809,7 @@ html {
 
 .content p {
 	font-size: 1.4rem;
-	color: #fff;
+	color: black;;
 	font-weight: 300;
 }
 
@@ -829,7 +829,7 @@ html {
 }
 
 .content input::-webkit-input-placeholder {
-	color: hsl(0, 0%, 93%);
+	color: black;;
 }
 
 .content button {
@@ -847,7 +847,7 @@ html {
 
 .content button:hover {
 	background-color: var(--background-color);
-	color: var(--primary-color);
+	
 }
 
 .copyright {
