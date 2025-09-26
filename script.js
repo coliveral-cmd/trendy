@@ -28,3 +28,33 @@ botonesComprar.forEach(boton => {
         window.location.href = urlWhatsApp;
     });
 });
+
+
+ // Script de JavaScript para la funcionalidad
+        document.addEventListener("DOMContentLoaded", function() {
+            const modal = document.getElementById("anuncioModal");
+            const cerrarBtn = document.querySelector(".cerrar-btn");
+        
+            // Función para mostrar el modal
+            function mostrarModal() {
+                modal.style.display = "flex";
+            }
+        
+            // Función para ocultar el modal
+            function ocultarModal() {
+                modal.style.display = "none";
+            }
+        
+            // Muestra el modal cuando la página se carga
+            mostrarModal();
+        
+            // Cuando el usuario hace clic en el botón de cerrar, oculta el modal
+            cerrarBtn.addEventListener("click", ocultarModal);
+        
+            // Cuando el usuario hace clic fuera del modal, también se oculta
+            window.addEventListener("click", function(event) {
+                if (event.target == modal) {
+                    ocultarModal();
+                }
+            });
+        });
