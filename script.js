@@ -10,7 +10,7 @@
     });
 // Seleccionamos todos los botones que tienen la clase 'btn-buy'
 const botonesComprar = document.querySelectorAll('.btn-buy');
-const numero = '51930509864'; // Reemplaza con tu número de WhatsApp
+const numero = '51930509111'; // Reemplaza con tu número de WhatsApp
 
 // Recorremos cada botón encontrado
 botonesComprar.forEach(boton => {
@@ -57,4 +57,5 @@ botonesComprar.forEach(boton => {
                     ocultarModal();
                 }
             });
+
         });
